@@ -38,3 +38,8 @@
 # middle head                        # => 3
 # head = {:data => 6, :next => head}
 # middle head                        # => 3
+
+def middle (list)
+  last_data = list[:data]
+  list [:next]*(last_data*2)[:data]
+end
