@@ -19,7 +19,7 @@
 # and when you think it is correct, you can test it with  $ rake 2:2
 
 def prompt
-  puts 'Enter a number or bye'
+  puts 'Enter a number'
 end
 
 def hi_hi_goodbye
