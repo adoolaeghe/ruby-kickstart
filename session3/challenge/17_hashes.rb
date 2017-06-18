@@ -7,14 +7,6 @@
 #
 # print_list_in_reverse head   # >> "1\n2\n"
 
-def print_list_in_reverse (list)
-  while list
-    hash_based = list[:data]
-    list = list[:next]
-    hash_based.split("/").reverse
-    puts arr.join("/")
-  end
-end
 
 def print_list_in_reverse(head)
      if head[:next] == nil
